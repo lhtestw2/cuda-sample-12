@@ -12,7 +12,7 @@ int main() {
     cudaError_t err = cudaSuccess;
     int numElements = 50000;
     size_t size = numElements * sizeof(float);
-    printf("[Vector addition of %d elementes]\n", numElements);
+    printf("[Vector addition of %d elements]\n", numElements);
 
     float *h_A = (float *)malloc(size);
     float *h_B = (float *)malloc(size);
