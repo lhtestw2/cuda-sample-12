@@ -3,3 +3,4 @@
 **/*.exe
 .vscode
 template.file
+cuda-samples/**/*
